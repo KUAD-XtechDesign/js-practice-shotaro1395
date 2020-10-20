@@ -25,4 +25,12 @@ $(function(){
         $("#content").text(num1 + "たす" + num2 + "は" +(num1 + num2)+ "です") ;
     })
     
+    $("#button06").on("click",function(){
+        $("#content").text(num2 + "ひく" - num1 + "は" +(num2 - num1)+ "です") ;
+    })
+
+    $("#button07").on("click",function(){
+        $("#content").append(num1+num2);
+    })
+
 });
